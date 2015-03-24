@@ -363,7 +363,7 @@ namespace PersonalTVShowOrganiser
                 databaseManager.OpenConnection();
                 Dictionary<string, string> settings = databaseManager.GetSettings("previousServerTime");
                 databaseManager.CloseConnection();
-                Update updates = this._tvdbAPI.GetUpdates(settings["previousServerTime"]);
+                Update updates = _tvdbAPI.GetUpdates(settings["previousServerTime"]);
                 int totalUpdates = _favourites.Count + updates.EpisodeUpdates.Count;
                 int percentProgress = 0;
                 double progress = 0;
