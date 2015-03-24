@@ -231,7 +231,7 @@
             this.chkWatched.Text = "Watched";
             this.chkWatched.UseVisualStyleBackColor = true;
             this.chkWatched.Visible = false;
-            this.chkWatched.CheckedChanged += new System.EventHandler(this.chkWatched_CheckedChanged);
+            this.chkWatched.Click += new System.EventHandler(this.chkWatched_Click);
             // 
             // shapeContainer1
             // 

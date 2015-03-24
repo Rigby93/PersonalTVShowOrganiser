@@ -15,10 +15,10 @@ namespace PersonalTVShowOrganiser
     public partial class frmCalendar : Form
     {
         private DatabaseManager.DatabaseManager _dbManager = new DatabaseManager.DatabaseManager();
-        private List<CalendarItem> _items = new List<CalendarItem>();
+        private Dictionary<int, CalendarItem> _items = new Dictionary<int, CalendarItem>();
         private Dictionary<int, Episode> _episodes = new Dictionary<int, Episode>();
         private CalendarItem contextItem = null;
-        private Episode lastSelectedItem = null;
+        private Episode lastSelectedEpisode = null;
 
         public frmCalendar()
         {
@@ -27,7 +27,7 @@ namespace PersonalTVShowOrganiser
 
         private void PlaceItems()
         {
-            foreach (CalendarItem item in _items)
+            foreach (CalendarItem item in _items.Values)
             {
                 if (calendar1.ViewIntersects(item))
                     calendar1.Items.Add(item);
@@ -76,7 +76,7 @@ namespace PersonalTVShowOrganiser
                     calendarItem.ApplyColor(Color.FromArgb(0, 192, 192, 192));
                 else if (episode.FirstAired <= DateTime.Now)
                     calendarItem.ApplyColor(Color.FromArgb(0, 255, 0, 0));
-                _items.Add(calendarItem);
+                _items.Add(episode.EpisodeID, calendarItem);
             }
             calendar1.MaximumFullDays = 7;
             SetCalendarView();
@@ -87,11 +87,13 @@ namespace PersonalTVShowOrganiser
         private void calendar1_LoadItems(object sender, CalendarLoadEventArgs e)
         {
             PlaceItems();
+            lblMonth.Text = calendar1.ViewStart.AddDays(15).ToString("MMMM");
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             SetCalendarView();
+            lblMonth.Text = dateTimePicker1.Value.ToString("MMMM");
         }
 
         private void calendar1_ItemClick(object sender, CalendarItemEventArgs e)
@@ -111,7 +113,7 @@ namespace PersonalTVShowOrganiser
                 lblEpisodeName.Visible = true;
                 txtOverview.Visible = true;
                 chkWatched.Visible = true;
-                lastSelectedItem = episode;
+                lastSelectedEpisode = episode;
             }
         }
 
@@ -140,25 +142,24 @@ namespace PersonalTVShowOrganiser
             txtOverview.MaximumSize = new Size(Width - calendar1.Width - 35, 188);
         }
 
-        private void chkWatched_CheckedChanged(object sender, EventArgs e)
+        private void chkWatched_Click(object sender, EventArgs e)
         {
             if (chkWatched.Checked)
             {
-                DialogResult result = MessageBox.Show("Are you sure you want to mark this episode as watched?", "Mark as Watched", MessageBoxButtons.YesNoCancel);
+                DialogResult result = MessageBox.Show("Are you sure you want to mark this episode as watched?", "Mark as Watched", MessageBoxButtons.YesNo);
                 switch (result)
                 {
                     case System.Windows.Forms.DialogResult.Yes:
-                        lastSelectedItem.Watched = true;
+                        lastSelectedEpisode.Watched = true;
                         _dbManager.OpenConnection();
                         _dbManager.BeginTransaction();
-                        _dbManager.UpdateWatchedEpisodes(new List<Episode> { lastSelectedItem });
+                        _dbManager.UpdateWatchedEpisodes(new List<Episode> { lastSelectedEpisode });
                         _dbManager.Commit();
                         _dbManager.CloseConnection();
+                        _items[lastSelectedEpisode.EpisodeID].ApplyColor(Color.FromArgb(0, 192, 192, 192));
                         break;
                     case System.Windows.Forms.DialogResult.No:
                         chkWatched.Checked = false;
-                        break;
-                    case System.Windows.Forms.DialogResult.Cancel:
                         break;
                     default:
                         break;
@@ -166,26 +167,30 @@ namespace PersonalTVShowOrganiser
             }
             else
             {
-                DialogResult result = MessageBox.Show("Are you sure you want to mark this episode as unwatched?", "Mark as Unwatched", MessageBoxButtons.YesNoCancel);
+                DialogResult result = MessageBox.Show("Are you sure you want to mark this episode as unwatched?", "Mark as Unwatched", MessageBoxButtons.YesNo);
                 switch (result)
                 {
                     case System.Windows.Forms.DialogResult.Yes:
-                        lastSelectedItem.Watched = false;
+                        lastSelectedEpisode.Watched = false;
                         _dbManager.OpenConnection();
                         _dbManager.BeginTransaction();
-                        _dbManager.UpdateWatchedEpisodes(new List<Episode> { lastSelectedItem });
+                        _dbManager.UpdateWatchedEpisodes(new List<Episode> { lastSelectedEpisode });
                         _dbManager.Commit();
                         _dbManager.CloseConnection();
+                        if (lastSelectedEpisode.FirstAired <= DateTime.Now)
+                            _items[lastSelectedEpisode.EpisodeID].ApplyColor(Color.FromArgb(0, 255, 0, 0));
+                        else
+                            _items[lastSelectedEpisode.EpisodeID].RemoveColors();
                         break;
                     case System.Windows.Forms.DialogResult.No:
-                        chkWatched.Checked = false;
-                        break;
-                    case System.Windows.Forms.DialogResult.Cancel:
+                        chkWatched.Checked = true;
                         break;
                     default:
                         break;
                 }
             }
+            calendar1.Items.Clear();
+            PlaceItems();
         }
     }
 }
