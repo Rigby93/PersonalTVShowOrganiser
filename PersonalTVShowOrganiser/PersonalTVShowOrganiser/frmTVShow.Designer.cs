@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTVShow));
             this.pbPoster = new System.Windows.Forms.PictureBox();
             this.lblName = new System.Windows.Forms.Label();
@@ -110,11 +111,19 @@
             this.dgvEpisodes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvEpisodes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvEpisodes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEpisodes.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvEpisodes.Location = new System.Drawing.Point(17, 229);
             this.dgvEpisodes.Name = "dgvEpisodes";
             this.dgvEpisodes.RowHeadersVisible = false;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dgvEpisodes.RowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.dgvEpisodes.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvEpisodes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvEpisodes.Size = new System.Drawing.Size(601, 375);
             this.dgvEpisodes.TabIndex = 3;
@@ -264,8 +273,9 @@
             this.btnFavourite.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnFavourite.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.btnFavourite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFavourite.ImageIndex = 1;
             this.btnFavourite.ImageList = this.imageList1;
-            this.btnFavourite.Location = new System.Drawing.Point(-122, 25);
+            this.btnFavourite.Location = new System.Drawing.Point(560, 27);
             this.btnFavourite.Name = "btnFavourite";
             this.btnFavourite.Size = new System.Drawing.Size(37, 36);
             this.btnFavourite.TabIndex = 18;
@@ -276,9 +286,10 @@
             // 
             // imageList1
             // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "favourite_star.ico");
+            this.imageList1.Images.SetKeyName(1, "unfavourite_star.ico");
             // 
             // toolStrip1
             // 
