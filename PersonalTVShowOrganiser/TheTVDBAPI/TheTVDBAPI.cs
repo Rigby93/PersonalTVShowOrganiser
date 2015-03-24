@@ -484,7 +484,7 @@ namespace TheTVDBAPI
             Episode episode = new Episode();
             try
             {
-                return ReadSeriesXML(xmlSource).Episodes[0];
+                return ReadSeriesXML(xmlSource).Episodes.Values.First();
             }
             catch (XmlException ex)
             {
