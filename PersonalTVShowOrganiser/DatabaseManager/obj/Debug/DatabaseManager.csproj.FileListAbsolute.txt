@@ -1,0 +1,9 @@
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\DatabaseManager.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\DatabaseManager.pdb
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\System.Data.SQLite.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\TVShowObjects.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\System.Data.SQLite.pdb
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\TVShowObjects.pdb
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.csprojResolveAssemblyReference.cache
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.pdb

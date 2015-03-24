@@ -1,0 +1,5 @@
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TVShowObjects\bin\Debug\TVShowObjects.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TVShowObjects\bin\Debug\TVShowObjects.pdb
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TVShowObjects\obj\Debug\TVShowObjects.csprojResolveAssemblyReference.cache
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TVShowObjects\obj\Debug\TVShowObjects.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TVShowObjects\obj\Debug\TVShowObjects.pdb

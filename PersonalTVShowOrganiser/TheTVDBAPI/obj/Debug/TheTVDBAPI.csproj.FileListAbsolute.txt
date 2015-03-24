@@ -1,0 +1,8 @@
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TheTVDBAPI\bin\Debug\TheTVDBAPI.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TheTVDBAPI\bin\Debug\TheTVDBAPI.pdb
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TheTVDBAPI\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TheTVDBAPI\bin\Debug\TVShowObjects.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TheTVDBAPI\bin\Debug\TVShowObjects.pdb
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TheTVDBAPI\obj\Debug\TheTVDBAPI.csprojResolveAssemblyReference.cache
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TheTVDBAPI\obj\Debug\TheTVDBAPI.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\TheTVDBAPI\obj\Debug\TheTVDBAPI.pdb
