@@ -35,8 +35,12 @@
     <Reference Include="DatabaseManager">
       <HintPath>..\DatabaseManager\bin\Debug\DatabaseManager.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
     <Reference Include="PosterButton">
       <HintPath>..\PosterButton\bin\Debug\PosterButton.dll</HintPath>
     </Reference>
@@ -56,7 +60,8 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="TheTVDBAPI">
+    <Reference Include="TheTVDBAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\TheTVDBAPI\bin\Debug\TheTVDBAPI.dll</HintPath>
     </Reference>
     <Reference Include="TVShowObjects">
