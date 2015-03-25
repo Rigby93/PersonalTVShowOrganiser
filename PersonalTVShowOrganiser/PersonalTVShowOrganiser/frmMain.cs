@@ -91,7 +91,7 @@ namespace PersonalTVShowOrganiser
             dataTable.Columns.Add("Episode Name");
             dataTable.Columns.Add("Air Date");
             _dbManager.OpenConnection();
-            Dictionary<int, Episode> upcomingEpisodes = _dbManager.GetUpcomingEpisodes(false, 10);
+            Dictionary<int, Episode> upcomingEpisodes = _dbManager.GetUpcomingEpisodes(false);
             _dbManager.CloseConnection();
             foreach (Episode episode in upcomingEpisodes.Values)
             {
@@ -125,7 +125,7 @@ namespace PersonalTVShowOrganiser
             dataTable.Columns.Add("Episode Name");
             dataTable.Columns.Add("Air Date");
             _dbManager.OpenConnection();
-            Dictionary<int, Episode> missedEpisodes = _dbManager.GetMissedEpisodes(false, 10);
+            Dictionary<int, Episode> missedEpisodes = _dbManager.GetMissedEpisodes(false);
             _dbManager.CloseConnection();
             foreach (Episode episode in missedEpisodes.Values)
             {
@@ -229,26 +229,6 @@ namespace PersonalTVShowOrganiser
         private void btnViewUpcoming_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Click");
-        }
-
-        private void btnViewUpcoming_MouseEnter(object sender, EventArgs e)
-        {
-            btnViewUpcoming.ForeColor = Color.LightSkyBlue;
-        }
-
-        private void btnViewUpcoming_MouseLeave(object sender, EventArgs e)
-        {
-            btnViewUpcoming.ForeColor = Color.White;
-        }
-
-        private void btnViewMissed_MouseEnter(object sender, EventArgs e)
-        {
-            btnViewMissed.ForeColor = Color.LightSkyBlue;
-        }
-
-        private void btnViewMissed_MouseLeave(object sender, EventArgs e)
-        {
-            btnViewMissed.ForeColor = Color.White;
         }
 
         private void btnCalendar_Click(object sender, EventArgs e)
