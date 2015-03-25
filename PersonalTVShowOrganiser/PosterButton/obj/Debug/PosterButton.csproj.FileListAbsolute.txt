@@ -4,3 +4,11 @@ D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterB
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\obj\Debug\PosterButton.csproj.GenerateResource.Cache
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\obj\Debug\PosterButton.dll
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\obj\Debug\PosterButton.pdb
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\bin\Debug\PosterButton.dll
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\bin\Debug\PosterButton.pdb
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\bin\Debug\PosterButton.dll.CodeAnalysisLog.xml
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\bin\Debug\PosterButton.dll.lastcodeanalysissucceeded
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\obj\Debug\PosterButton.PosterButton.resources
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\obj\Debug\PosterButton.csproj.GenerateResource.Cache
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\obj\Debug\PosterButton.dll
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PosterButton\obj\Debug\PosterButton.pdb

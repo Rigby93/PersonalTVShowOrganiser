@@ -7,3 +7,14 @@ D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\Databas
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.csprojResolveAssemblyReference.cache
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.dll
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.pdb
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\DatabaseManager.dll
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\DatabaseManager.pdb
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\DatabaseManager.dll.CodeAnalysisLog.xml
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\DatabaseManager.dll.lastcodeanalysissucceeded
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\System.Data.SQLite.dll
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\TVShowObjects.dll
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\System.Data.SQLite.pdb
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\bin\Debug\TVShowObjects.pdb
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.csprojResolveAssemblyReference.cache
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.dll
+C:\Users\Callum\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\DatabaseManager\obj\Debug\DatabaseManager.pdb
