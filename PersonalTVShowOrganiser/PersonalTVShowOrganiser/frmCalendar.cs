@@ -80,20 +80,19 @@ namespace PersonalTVShowOrganiser
             }
             calendar1.MaximumFullDays = 7;
             SetCalendarView();
-            lblMonth.Text = DateTime.Today.ToString("MMMM");
+            lblMonth.Text = DateTime.Today.ToString("MMMM yyyy");
             lineShape1.X2 = Width - calendar1.Width - 35;
         }
 
         private void calendar1_LoadItems(object sender, CalendarLoadEventArgs e)
         {
             PlaceItems();
-            lblMonth.Text = calendar1.ViewStart.AddDays(15).ToString("MMMM");
+            lblMonth.Text = calendar1.ViewStart.AddDays(15).ToString("MMMM yyyy");
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             SetCalendarView();
-            lblMonth.Text = dateTimePicker1.Value.ToString("MMMM");
         }
 
         private void calendar1_ItemClick(object sender, CalendarItemEventArgs e)
