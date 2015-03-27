@@ -68,7 +68,11 @@ namespace PersonalTVShowOrganiser
             {
                 _dbManager.CloseConnection();
             }
-            PopulateFavoutitesPanel();
+            if (_favourites.Count > 0)
+                PopulateFavoutitesPanel();
+            else
+                lblAddFavourites.Visible = true;
+            
         }
 
         private void pb_Click(object sender, EventArgs e)

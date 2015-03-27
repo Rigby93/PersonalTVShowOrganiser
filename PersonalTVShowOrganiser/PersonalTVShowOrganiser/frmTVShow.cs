@@ -63,7 +63,7 @@ namespace PersonalTVShowOrganiser
                         episode.Name,
                         episode.Overview,
                         !(episode.FirstAired > Convert.ToDateTime("01 Jan 1900")) ? "" : episode.FirstAired.ToString("yyyy-MM-dd"),
-                        episode.Watched ? true : false
+                        episode.Watched
                       };
                 dataTable.Rows.Add(row);
                 PopulateSeasons(episode.Season, ref previousSeasonNumber);
@@ -156,7 +156,7 @@ namespace PersonalTVShowOrganiser
         private void ChangeSelection(bool selectAll)
         {
             for (int i = 0; i < dgvEpisodes.RowCount; ++i)
-                dgvEpisodes.Rows[i].Cells[5].Value = selectAll ? true : false;
+                dgvEpisodes.Rows[i].Cells[5].Value = selectAll;
         }
 
         private void frmTVShow_Load(object sender, EventArgs e)

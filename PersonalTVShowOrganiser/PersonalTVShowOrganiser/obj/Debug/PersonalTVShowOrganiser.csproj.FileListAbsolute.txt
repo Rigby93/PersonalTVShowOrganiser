@@ -30,3 +30,6 @@ D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\Persona
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PersonalTVShowOrganiser\bin\Debug\System.Windows.Forms.Calendar.pdb
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PersonalTVShowOrganiser\bin\Debug\TheTVDBAPI.pdb
 D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PersonalTVShowOrganiser\bin\Debug\TVShowObjects.pdb
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PersonalTVShowOrganiser\bin\Debug\Microsoft.VisualBasic.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PersonalTVShowOrganiser\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Documents\MMU\Project\PersonalTVShowOrganiser\PersonalTVShowOrganiser\PersonalTVShowOrganiser\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml

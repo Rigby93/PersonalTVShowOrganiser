@@ -39,6 +39,7 @@
             this.lblNoOfEpisodes = new System.Windows.Forms.Label();
             this.lblRating = new System.Windows.Forms.Label();
             this.btnShowMore = new System.Windows.Forms.Button();
+            this.lblAddFavourites = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbBackground)).BeginInit();
             this.SuspendLayout();
             // 
@@ -173,12 +174,26 @@
             this.btnShowMore.MouseEnter += new System.EventHandler(this.btnShowMore_MouseEnter);
             this.btnShowMore.MouseLeave += new System.EventHandler(this.btnShowMore_MouseLeave);
             // 
+            // lblAddFavourites
+            // 
+            this.lblAddFavourites.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblAddFavourites.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddFavourites.Location = new System.Drawing.Point(12, 150);
+            this.lblAddFavourites.Name = "lblAddFavourites";
+            this.lblAddFavourites.Size = new System.Drawing.Size(487, 145);
+            this.lblAddFavourites.TabIndex = 11;
+            this.lblAddFavourites.Text = "You currently don\'t have any shows saved to your favourites.\r\n\r\nTo add a show beg" +
+    "in by going to the home screen a searching for your favourite TV shows.";
+            this.lblAddFavourites.Visible = false;
+            // 
             // frmFavourites
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1213, 764);
+            this.Controls.Add(this.lblAddFavourites);
             this.Controls.Add(this.btnShowMore);
             this.Controls.Add(this.lblRating);
             this.Controls.Add(this.lblNoOfEpisodes);
@@ -215,5 +230,6 @@
         private System.Windows.Forms.Label lblNoOfEpisodes;
         private System.Windows.Forms.Label lblRating;
         private System.Windows.Forms.Button btnShowMore;
+        private System.Windows.Forms.Label lblAddFavourites;
     }
 }
