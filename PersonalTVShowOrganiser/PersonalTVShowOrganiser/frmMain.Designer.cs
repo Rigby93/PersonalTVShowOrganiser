@@ -30,12 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.btnFile = new System.Windows.Forms.ToolStripDropDownButton();
             this.lblTVTracker = new System.Windows.Forms.Label();
@@ -79,7 +79,7 @@
             this.btnFile});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1336, 32);
+            this.toolStrip1.Size = new System.Drawing.Size(1336, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -90,7 +90,7 @@
             this.btnFile.Image = ((System.Drawing.Image)(resources.GetObject("btnFile.Image")));
             this.btnFile.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnFile.Name = "btnFile";
-            this.btnFile.Size = new System.Drawing.Size(51, 29);
+            this.btnFile.Size = new System.Drawing.Size(38, 22);
             this.btnFile.Text = "File";
             // 
             // lblTVTracker
@@ -100,7 +100,7 @@
             this.lblTVTracker.ForeColor = System.Drawing.Color.LightSkyBlue;
             this.lblTVTracker.Location = new System.Drawing.Point(32, 22);
             this.lblTVTracker.Name = "lblTVTracker";
-            this.lblTVTracker.Size = new System.Drawing.Size(532, 128);
+            this.lblTVTracker.Size = new System.Drawing.Size(356, 86);
             this.lblTVTracker.TabIndex = 1;
             this.lblTVTracker.Text = "TV Tracker";
             // 
@@ -153,21 +153,21 @@
             this.dgvMissedEpisodes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvMissedEpisodes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvMissedEpisodes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvMissedEpisodes.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvMissedEpisodes.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgvMissedEpisodes.Location = new System.Drawing.Point(712, 53);
             this.dgvMissedEpisodes.MultiSelect = false;
             this.dgvMissedEpisodes.Name = "dgvMissedEpisodes";
             this.dgvMissedEpisodes.ReadOnly = true;
             this.dgvMissedEpisodes.RowHeadersVisible = false;
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dgvMissedEpisodes.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.dgvMissedEpisodes.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvMissedEpisodes.RowTemplate.Height = 28;
             this.dgvMissedEpisodes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvMissedEpisodes.Size = new System.Drawing.Size(592, 349);
@@ -181,7 +181,7 @@
             this.lblMissedEpisodes.ForeColor = System.Drawing.Color.White;
             this.lblMissedEpisodes.Location = new System.Drawing.Point(708, 22);
             this.lblMissedEpisodes.Name = "lblMissedEpisodes";
-            this.lblMissedEpisodes.Size = new System.Drawing.Size(190, 32);
+            this.lblMissedEpisodes.Size = new System.Drawing.Size(124, 21);
             this.lblMissedEpisodes.TabIndex = 5;
             this.lblMissedEpisodes.Text = "Missed Episodes";
             // 
@@ -193,7 +193,7 @@
             this.lblUpcomingEpisodes.ForeColor = System.Drawing.Color.White;
             this.lblUpcomingEpisodes.Location = new System.Drawing.Point(708, 450);
             this.lblUpcomingEpisodes.Name = "lblUpcomingEpisodes";
-            this.lblUpcomingEpisodes.Size = new System.Drawing.Size(225, 32);
+            this.lblUpcomingEpisodes.Size = new System.Drawing.Size(147, 21);
             this.lblUpcomingEpisodes.TabIndex = 7;
             this.lblUpcomingEpisodes.Text = "Upcoming Episodes";
             // 
@@ -210,21 +210,21 @@
             this.dgvUpcomingEpisodes.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvUpcomingEpisodes.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvUpcomingEpisodes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvUpcomingEpisodes.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvUpcomingEpisodes.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvUpcomingEpisodes.Location = new System.Drawing.Point(712, 481);
             this.dgvUpcomingEpisodes.MultiSelect = false;
             this.dgvUpcomingEpisodes.Name = "dgvUpcomingEpisodes";
             this.dgvUpcomingEpisodes.ReadOnly = true;
             this.dgvUpcomingEpisodes.RowHeadersVisible = false;
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dgvUpcomingEpisodes.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.dgvUpcomingEpisodes.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvUpcomingEpisodes.RowTemplate.Height = 28;
             this.dgvUpcomingEpisodes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvUpcomingEpisodes.Size = new System.Drawing.Size(592, 349);
@@ -253,10 +253,10 @@
             this.tabHome.Controls.Add(this.btnCalendar);
             this.tabHome.Controls.Add(this.lblMissedEpisodes);
             this.tabHome.Controls.Add(this.dgvMissedEpisodes);
-            this.tabHome.Location = new System.Drawing.Point(4, 34);
+            this.tabHome.Location = new System.Drawing.Point(4, 24);
             this.tabHome.Name = "tabHome";
             this.tabHome.Padding = new System.Windows.Forms.Padding(3);
-            this.tabHome.Size = new System.Drawing.Size(2006, 869);
+            this.tabHome.Size = new System.Drawing.Size(2006, 879);
             this.tabHome.TabIndex = 0;
             this.tabHome.Text = "Home";
             // 
@@ -264,10 +264,10 @@
             // 
             this.tabResults.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.tabResults.Controls.Add(this.dgvSearchResults);
-            this.tabResults.Location = new System.Drawing.Point(4, 34);
+            this.tabResults.Location = new System.Drawing.Point(4, 24);
             this.tabResults.Name = "tabResults";
             this.tabResults.Padding = new System.Windows.Forms.Padding(3);
-            this.tabResults.Size = new System.Drawing.Size(2006, 869);
+            this.tabResults.Size = new System.Drawing.Size(2006, 879);
             this.tabResults.TabIndex = 1;
             this.tabResults.Text = "Search Results";
             // 
@@ -283,25 +283,25 @@
             this.dgvSearchResults.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvSearchResults.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvSearchResults.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvSearchResults.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvSearchResults.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgvSearchResults.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvSearchResults.Location = new System.Drawing.Point(3, 3);
             this.dgvSearchResults.MultiSelect = false;
             this.dgvSearchResults.Name = "dgvSearchResults";
             this.dgvSearchResults.ReadOnly = true;
             this.dgvSearchResults.RowHeadersVisible = false;
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.dgvSearchResults.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.dgvSearchResults.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvSearchResults.RowTemplate.Height = 28;
             this.dgvSearchResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSearchResults.Size = new System.Drawing.Size(2000, 863);
+            this.dgvSearchResults.Size = new System.Drawing.Size(2000, 873);
             this.dgvSearchResults.TabIndex = 0;
             this.dgvSearchResults.Visible = false;
             this.dgvSearchResults.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvSearchResults_CellMouseDoubleClick);
@@ -347,7 +347,7 @@
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSearch.Location = new System.Drawing.Point(1088, 29);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(157, 31);
+            this.txtSearch.Size = new System.Drawing.Size(157, 23);
             this.txtSearch.TabIndex = 11;
             this.txtSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearch_KeyDown);
             // 
@@ -381,30 +381,30 @@
             this.toolStripSeparator1,
             this.mnuExit});
             this.cmsNotifyIcon.Name = "cmsNotifyIcon";
-            this.cmsNotifyIcon.Size = new System.Drawing.Size(226, 70);
+            this.cmsNotifyIcon.Size = new System.Drawing.Size(168, 54);
             // 
             // mnuUpdate
             // 
             this.mnuUpdate.Name = "mnuUpdate";
-            this.mnuUpdate.Size = new System.Drawing.Size(225, 30);
+            this.mnuUpdate.Size = new System.Drawing.Size(167, 22);
             this.mnuUpdate.Text = "Update favourites";
             this.mnuUpdate.Click += new System.EventHandler(this.mnuUpdate_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(222, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(164, 6);
             // 
             // mnuExit
             // 
             this.mnuExit.Name = "mnuExit";
-            this.mnuExit.Size = new System.Drawing.Size(225, 30);
+            this.mnuExit.Size = new System.Drawing.Size(167, 22);
             this.mnuExit.Text = "Exit";
             this.mnuExit.Click += new System.EventHandler(this.mnuExit_Click);
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(1336, 954);
@@ -415,6 +415,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmMain";
             this.Text = "TV Tracker";

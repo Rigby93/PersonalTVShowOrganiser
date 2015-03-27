@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFavourites));
             this.pnlFavourites = new System.Windows.Forms.Panel();
             this.pbBackground = new System.Windows.Forms.PictureBox();
             this.lblName = new System.Windows.Forms.Label();
@@ -207,6 +208,7 @@
             this.Controls.Add(this.pbBackground);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmFavourites";
             this.Text = "Favourites";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

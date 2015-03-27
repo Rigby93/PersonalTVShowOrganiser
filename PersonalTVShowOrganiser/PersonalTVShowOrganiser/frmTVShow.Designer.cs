@@ -81,7 +81,7 @@
             this.lblName.ForeColor = System.Drawing.Color.LightSkyBlue;
             this.lblName.Location = new System.Drawing.Point(12, 27);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(105, 45);
+            this.lblName.Size = new System.Drawing.Size(71, 30);
             this.lblName.TabIndex = 1;
             this.lblName.Text = "Name";
             // 
@@ -93,7 +93,7 @@
             this.lblOverview.Location = new System.Drawing.Point(14, 61);
             this.lblOverview.MaximumSize = new System.Drawing.Size(600, 0);
             this.lblOverview.Name = "lblOverview";
-            this.lblOverview.Size = new System.Drawing.Size(85, 25);
+            this.lblOverview.Size = new System.Drawing.Size(56, 15);
             this.lblOverview.TabIndex = 2;
             this.lblOverview.Text = "Overview";
             // 
@@ -135,7 +135,7 @@
             this.lblFirstAired.AutoSize = true;
             this.lblFirstAired.Location = new System.Drawing.Point(636, 359);
             this.lblFirstAired.Name = "lblFirstAired";
-            this.lblFirstAired.Size = new System.Drawing.Size(96, 25);
+            this.lblFirstAired.Size = new System.Drawing.Size(63, 15);
             this.lblFirstAired.TabIndex = 4;
             this.lblFirstAired.Text = "First Aired:";
             // 
@@ -145,7 +145,7 @@
             this.lblAirDay.AutoSize = true;
             this.lblAirDay.Location = new System.Drawing.Point(636, 376);
             this.lblAirDay.Name = "lblAirDay";
-            this.lblAirDay.Size = new System.Drawing.Size(74, 25);
+            this.lblAirDay.Size = new System.Drawing.Size(48, 15);
             this.lblAirDay.TabIndex = 5;
             this.lblAirDay.Text = "Air Day:";
             // 
@@ -155,7 +155,7 @@
             this.lblAirTime.AutoSize = true;
             this.lblAirTime.Location = new System.Drawing.Point(636, 394);
             this.lblAirTime.Name = "lblAirTime";
-            this.lblAirTime.Size = new System.Drawing.Size(81, 25);
+            this.lblAirTime.Size = new System.Drawing.Size(55, 15);
             this.lblAirTime.TabIndex = 6;
             this.lblAirTime.Text = "Air Time:";
             // 
@@ -165,7 +165,7 @@
             this.lblRuntime.AutoSize = true;
             this.lblRuntime.Location = new System.Drawing.Point(636, 412);
             this.lblRuntime.Name = "lblRuntime";
-            this.lblRuntime.Size = new System.Drawing.Size(82, 25);
+            this.lblRuntime.Size = new System.Drawing.Size(55, 15);
             this.lblRuntime.TabIndex = 7;
             this.lblRuntime.Text = "Runtime:";
             // 
@@ -175,7 +175,7 @@
             this.lblNetwork.AutoSize = true;
             this.lblNetwork.Location = new System.Drawing.Point(636, 430);
             this.lblNetwork.Name = "lblNetwork";
-            this.lblNetwork.Size = new System.Drawing.Size(83, 25);
+            this.lblNetwork.Size = new System.Drawing.Size(55, 15);
             this.lblNetwork.TabIndex = 8;
             this.lblNetwork.Text = "Network:";
             // 
@@ -185,7 +185,7 @@
             this.lblGenre.AutoSize = true;
             this.lblGenre.Location = new System.Drawing.Point(636, 448);
             this.lblGenre.Name = "lblGenre";
-            this.lblGenre.Size = new System.Drawing.Size(62, 25);
+            this.lblGenre.Size = new System.Drawing.Size(41, 15);
             this.lblGenre.TabIndex = 9;
             this.lblGenre.Text = "Genre:";
             // 
@@ -195,7 +195,7 @@
             this.lblFirstAiredText.AutoSize = true;
             this.lblFirstAiredText.Location = new System.Drawing.Point(758, 359);
             this.lblFirstAiredText.Name = "lblFirstAiredText";
-            this.lblFirstAiredText.Size = new System.Drawing.Size(49, 25);
+            this.lblFirstAiredText.Size = new System.Drawing.Size(31, 15);
             this.lblFirstAiredText.TabIndex = 10;
             this.lblFirstAiredText.Text = "Date";
             // 
@@ -205,7 +205,7 @@
             this.lblAirDayText.AutoSize = true;
             this.lblAirDayText.Location = new System.Drawing.Point(758, 376);
             this.lblAirDayText.Name = "lblAirDayText";
-            this.lblAirDayText.Size = new System.Drawing.Size(43, 25);
+            this.lblAirDayText.Size = new System.Drawing.Size(27, 15);
             this.lblAirDayText.TabIndex = 11;
             this.lblAirDayText.Text = "Day";
             // 
@@ -215,7 +215,7 @@
             this.lblAirTimeText.AutoSize = true;
             this.lblAirTimeText.Location = new System.Drawing.Point(758, 394);
             this.lblAirTimeText.Name = "lblAirTimeText";
-            this.lblAirTimeText.Size = new System.Drawing.Size(50, 25);
+            this.lblAirTimeText.Size = new System.Drawing.Size(34, 15);
             this.lblAirTimeText.TabIndex = 12;
             this.lblAirTimeText.Text = "Time";
             // 
@@ -225,7 +225,7 @@
             this.lblRuntimeText.AutoSize = true;
             this.lblRuntimeText.Location = new System.Drawing.Point(758, 412);
             this.lblRuntimeText.Name = "lblRuntimeText";
-            this.lblRuntimeText.Size = new System.Drawing.Size(50, 25);
+            this.lblRuntimeText.Size = new System.Drawing.Size(34, 15);
             this.lblRuntimeText.TabIndex = 13;
             this.lblRuntimeText.Text = "Time";
             // 
@@ -235,7 +235,7 @@
             this.lblNetworkText.AutoSize = true;
             this.lblNetworkText.Location = new System.Drawing.Point(758, 430);
             this.lblNetworkText.Name = "lblNetworkText";
-            this.lblNetworkText.Size = new System.Drawing.Size(79, 25);
+            this.lblNetworkText.Size = new System.Drawing.Size(52, 15);
             this.lblNetworkText.TabIndex = 14;
             this.lblNetworkText.Text = "Network";
             // 
@@ -245,7 +245,7 @@
             this.lblGenreText.AutoSize = true;
             this.lblGenreText.Location = new System.Drawing.Point(758, 448);
             this.lblGenreText.Name = "lblGenreText";
-            this.lblGenreText.Size = new System.Drawing.Size(58, 25);
+            this.lblGenreText.Size = new System.Drawing.Size(38, 15);
             this.lblGenreText.TabIndex = 15;
             this.lblGenreText.Text = "Genre";
             // 
@@ -254,7 +254,7 @@
             this.lblSeasons.AutoSize = true;
             this.lblSeasons.Location = new System.Drawing.Point(15, 206);
             this.lblSeasons.Name = "lblSeasons";
-            this.lblSeasons.Size = new System.Drawing.Size(77, 25);
+            this.lblSeasons.Size = new System.Drawing.Size(49, 15);
             this.lblSeasons.TabIndex = 16;
             this.lblSeasons.Text = "Seasons";
             // 
@@ -263,7 +263,7 @@
             this.cmbSeasons.FormattingEnabled = true;
             this.cmbSeasons.Location = new System.Drawing.Point(72, 204);
             this.cmbSeasons.Name = "cmbSeasons";
-            this.cmbSeasons.Size = new System.Drawing.Size(92, 33);
+            this.cmbSeasons.Size = new System.Drawing.Size(92, 23);
             this.cmbSeasons.TabIndex = 17;
             // 
             // btnFavourite
@@ -299,7 +299,7 @@
             this.btnFile});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(870, 32);
+            this.toolStrip1.Size = new System.Drawing.Size(870, 25);
             this.toolStrip1.TabIndex = 19;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -312,13 +312,13 @@
             this.btnFile.Image = ((System.Drawing.Image)(resources.GetObject("btnFile.Image")));
             this.btnFile.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnFile.Name = "btnFile";
-            this.btnFile.Size = new System.Drawing.Size(51, 29);
+            this.btnFile.Size = new System.Drawing.Size(38, 22);
             this.btnFile.Text = "File";
             // 
             // btnSave
             // 
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(121, 30);
+            this.btnSave.Size = new System.Drawing.Size(98, 22);
             this.btnSave.Text = "Save";
             // 
             // btnSelectAll
@@ -359,7 +359,7 @@
             // 
             // frmTVShow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(870, 616);
@@ -388,6 +388,7 @@
             this.Controls.Add(this.pbPoster);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmTVShow";
             this.Text = "frmTVShow";
