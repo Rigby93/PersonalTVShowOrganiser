@@ -180,7 +180,7 @@
             this.lblAddFavourites.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.lblAddFavourites.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddFavourites.Location = new System.Drawing.Point(12, 150);
+            this.lblAddFavourites.Location = new System.Drawing.Point(180, 161);
             this.lblAddFavourites.Name = "lblAddFavourites";
             this.lblAddFavourites.Size = new System.Drawing.Size(487, 145);
             this.lblAddFavourites.TabIndex = 11;
@@ -194,7 +194,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1213, 764);
-            this.Controls.Add(this.lblAddFavourites);
             this.Controls.Add(this.btnShowMore);
             this.Controls.Add(this.lblRating);
             this.Controls.Add(this.lblNoOfEpisodes);
@@ -205,6 +204,7 @@
             this.Controls.Add(this.lblYear);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.pnlFavourites);
+            this.Controls.Add(this.lblAddFavourites);
             this.Controls.Add(this.pbBackground);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;

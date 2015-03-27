@@ -161,7 +161,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvMissedEpisodes.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvMissedEpisodes.Location = new System.Drawing.Point(712, 53);
+            this.dgvMissedEpisodes.Location = new System.Drawing.Point(700, 53);
             this.dgvMissedEpisodes.MultiSelect = false;
             this.dgvMissedEpisodes.Name = "dgvMissedEpisodes";
             this.dgvMissedEpisodes.ReadOnly = true;
@@ -179,7 +179,7 @@
             this.lblMissedEpisodes.AutoSize = true;
             this.lblMissedEpisodes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMissedEpisodes.ForeColor = System.Drawing.Color.White;
-            this.lblMissedEpisodes.Location = new System.Drawing.Point(708, 22);
+            this.lblMissedEpisodes.Location = new System.Drawing.Point(700, 22);
             this.lblMissedEpisodes.Name = "lblMissedEpisodes";
             this.lblMissedEpisodes.Size = new System.Drawing.Size(124, 21);
             this.lblMissedEpisodes.TabIndex = 5;
@@ -191,7 +191,7 @@
             this.lblUpcomingEpisodes.AutoSize = true;
             this.lblUpcomingEpisodes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUpcomingEpisodes.ForeColor = System.Drawing.Color.White;
-            this.lblUpcomingEpisodes.Location = new System.Drawing.Point(708, 450);
+            this.lblUpcomingEpisodes.Location = new System.Drawing.Point(700, 450);
             this.lblUpcomingEpisodes.Name = "lblUpcomingEpisodes";
             this.lblUpcomingEpisodes.Size = new System.Drawing.Size(147, 21);
             this.lblUpcomingEpisodes.TabIndex = 7;
@@ -218,7 +218,7 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvUpcomingEpisodes.DefaultCellStyle = dataGridViewCellStyle3;
-            this.dgvUpcomingEpisodes.Location = new System.Drawing.Point(712, 481);
+            this.dgvUpcomingEpisodes.Location = new System.Drawing.Point(700, 481);
             this.dgvUpcomingEpisodes.MultiSelect = false;
             this.dgvUpcomingEpisodes.Name = "dgvUpcomingEpisodes";
             this.dgvUpcomingEpisodes.ReadOnly = true;
@@ -240,7 +240,7 @@
             this.tabScreens.Location = new System.Drawing.Point(0, 35);
             this.tabScreens.Name = "tabScreens";
             this.tabScreens.SelectedIndex = 0;
-            this.tabScreens.Size = new System.Drawing.Size(2014, 907);
+            this.tabScreens.Size = new System.Drawing.Size(1336, 907);
             this.tabScreens.TabIndex = 8;
             // 
             // tabHome
@@ -256,7 +256,7 @@
             this.tabHome.Location = new System.Drawing.Point(4, 24);
             this.tabHome.Name = "tabHome";
             this.tabHome.Padding = new System.Windows.Forms.Padding(3);
-            this.tabHome.Size = new System.Drawing.Size(2006, 879);
+            this.tabHome.Size = new System.Drawing.Size(1328, 879);
             this.tabHome.TabIndex = 0;
             this.tabHome.Text = "Home";
             // 
@@ -267,7 +267,7 @@
             this.tabResults.Location = new System.Drawing.Point(4, 24);
             this.tabResults.Name = "tabResults";
             this.tabResults.Padding = new System.Windows.Forms.Padding(3);
-            this.tabResults.Size = new System.Drawing.Size(2006, 879);
+            this.tabResults.Size = new System.Drawing.Size(1328, 879);
             this.tabResults.TabIndex = 1;
             this.tabResults.Text = "Search Results";
             // 
@@ -301,7 +301,7 @@
             this.dgvSearchResults.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvSearchResults.RowTemplate.Height = 28;
             this.dgvSearchResults.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSearchResults.Size = new System.Drawing.Size(2000, 873);
+            this.dgvSearchResults.Size = new System.Drawing.Size(1322, 873);
             this.dgvSearchResults.TabIndex = 0;
             this.dgvSearchResults.Visible = false;
             this.dgvSearchResults.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvSearchResults_CellMouseDoubleClick);
